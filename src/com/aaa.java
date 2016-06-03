@@ -35,7 +35,7 @@ public class aaa {
     }  
       
     public static void main(String[] args) {  
-        String urlS = "http://192.168.100.11:8080/uzou_yunwei/images/1.jpg";  
+        String urlS = "http://192.168.100.11:8080/uzou_yunwei/images/1.jpg????";  
         String filePathString = "d:/ÖÐÎÄ";  
         URL url;  
         try {  
