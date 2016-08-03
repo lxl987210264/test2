@@ -1,0 +1,26 @@
+.title{font-family:Arial,΢���ź�;font-size:18px;text-anchor:middle;}
+.subTitle{font-family:Arial,����;font-size:12px;text-anchor:middle;fill:#666}
+.axis path,
+.axis line {
+fill: none;
+stroke: #A4A3A3;
+shape-rendering: crispEdges;
+}
+.axis text {
+font-family: sans-serif;
+font-size: 11px;
+fill:#000;
+}
+.ybar text{
+	fill:#000;
+}
+.inner_line path, .inner_line line { fill: none; stroke: rgba(203, 203, 203, 0.25); shape-rendering: crispEdges; }
+.inner_line .tick{stroke:rgb(234, 62, 62);}
+svg{
+	overflow-x:auto;
+	margin-top:10px;
+	background:#fff;
+}
+.txt{
+	fill:rgba(16, 15, 14, 0.88);
+}

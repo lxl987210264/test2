@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="ceshi"
-  id="myeclipse.1442383105412"
-  context-root="/ceshi"
-  j2ee-spec="5.0"
-  archive="ceshi.war">
+  name="test Maven Webapp"
+  id="myeclipse.1464314579092"
+  context-root="/test"
+  j2ee-spec="1.7"
+  archive="test Maven Webapp.war">
   <attributes>
-    <attribute name="webrootdir" value="WebRoot" />
+    <attribute name="webrootdir" value="src/main/webapp" />
   </attributes>
 </project-module>
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "struts-2.1.dtd" >
+<struts>
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<constant name="struts.multipart.saveDir" value="/uploads"></constant>
+	<constant name="struts.multipart.maxSize" value="10485760000"></constant>
+	<constant name="struts.i18n.reload" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<package name="default" namespace="/" extends="strutss-default">
+		<global-results>
+			<result name="json" type="json">
+				<param name="root">resultJson</param>
+			</result>
+			<result name="error">/404.jsp</result>
+			<result name="flag" type="json">
+				<param name="root">flag</param>
+			</result>
+		</global-results>
+		<action name="ceshi" class="com.ceshi.ceshi1" >
+			<result name="success">/index.jsp</result>
+		</action>
+	</package>
+</struts>
