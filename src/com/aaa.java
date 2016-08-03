@@ -15,7 +15,7 @@ public class aaa {
         String urlPath = con.getURL().getFile();  
         String fileFullName = urlPath.substring(urlPath.lastIndexOf("/") + 1);  
         if (fileFullName != null) {  
-            byte[] buffer = new byte[4 * 1024];  
+            byte[] buffer = new byte[4 * 1024] ;  
             int read;  
             String path = filePath + "/" + fileFullName;  
             File fileFolder = new File(filePath);  
