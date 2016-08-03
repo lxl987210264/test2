@@ -17,7 +17,7 @@ public class aaa {
         if (fileFullName != null) {  
             byte[] buffer = new byte[4 * 1024] ;  
             int read;  
-            String path = filePath + "/" + fileFullName;  
+            String path = filePath + "/¡¢" + fileFullName;  
             File fileFolder = new File(filePath);  
             if(!fileFolder.exists()){  
                 fileFolder.mkdir();  
